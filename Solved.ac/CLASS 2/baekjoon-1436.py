@@ -11,7 +11,5 @@ while True:
                         print(temp)
                         exit()
                     break
-            else:
-                
     
     temp += 1
