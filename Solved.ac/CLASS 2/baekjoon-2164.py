@@ -10,8 +10,16 @@ while len(cards) > 1:
 
 print(cards.pop())
 
-# 2의 거듭제곱을 찾는 풀이
+# 규칙성을 찾는 풀이
 n,t=int(input()),1
-while t < n:
+# 1이 입력일 경우 거름
+if n == 1:
+  print(1)
+  exit()
+  
+while True:
     t *= 2
-print(n*2 - t)
+    if t >= n:
+      t //= 2
+      break
+print((n-t)*2)
