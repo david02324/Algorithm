@@ -1,2 +1,6 @@
 # Project exclude paths
 /out/
+.idea
+.vscode
+/Solved.ac/.vscode
+Algorithm.iml
