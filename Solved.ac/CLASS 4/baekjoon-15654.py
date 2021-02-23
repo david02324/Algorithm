@@ -15,11 +15,10 @@
 # l = sorted(list(map(int,input().split())))
 # dfs(0)
 
-# from itertools import permutations
+from itertools import permutations
 
-# result = []
-# n,m = map(int,input().split())
-# l = sorted(list(map(int,input().split())))
-# ans = list(permutations(l,m))
-# for result in ans:
-#     print(*result)
+result = []
+n,m = map(int,input().split())
+l = sorted(list(map(int,input().split())))
+for case in permutations(l,m):
+    print(*case)
