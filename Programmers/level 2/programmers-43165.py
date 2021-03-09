@@ -14,7 +14,6 @@ def dfs(arr,info):
     dfs(arr,info)
     arr.pop()
 
-
 def solution(numbers, target):
     global count
     info = []
